@@ -1,0 +1,26 @@
+img{
+    display: block;
+    height:300px;
+}
+
+a{
+    display: block;
+}
+
+.top-div{
+    display: grid;
+    grid-auto-rows: 600px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.inside{
+    text-align: center;
+}
+  
